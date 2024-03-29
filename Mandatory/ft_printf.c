@@ -6,7 +6,7 @@
 /*   By: rolee <rolee@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/22 13:04:00 by rolee             #+#    #+#             */
-/*   Updated: 2024/03/29 14:08:47 by rolee            ###   ########.fr       */
+/*   Updated: 2024/03/29 15:07:57 by rolee            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ int	ft_printf(const char *format, ...)
 		if (format[idx] == '%')
 			len += transform(format[++idx], ap);
 		else
-			len += write(1, &format[idx], 1);
+			len += print_char(format[idx]);
 		idx++;
 	}
 	va_end(ap);
