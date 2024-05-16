@@ -10,3 +10,5 @@
     ```shell
     cc test_main.c libftprintf.a
     ```
+##
+학습 내용과 프로젝트 진행 과정에 대한 자세한 이야기는 [여기서](https://velog.io/@ronn/ftprintf-C-%ED%91%9C%EC%A4%80-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%ED%95%A8%EC%88%98-printf%EB%A5%BC-%EA%B5%AC%ED%98%84%ED%95%98%EC%9E%90) 확인할 수 있다.
